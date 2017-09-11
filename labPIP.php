@@ -14,7 +14,6 @@
     $start = microtime(true) - $start;
 ?>
 <html>
- 
     <head>
         <meta charset="UTF-8"/>
         <title>Лабораторная №1</title>
@@ -32,10 +31,6 @@
             <tr>
                 <td> Y : </td>
 		<td><?php echo $y ?></td>
-            </tr>
-            <tr>
-                <td> R : </td>
-		<td><?php echo $r ?></td>
             </tr>
             <tr>
                 <td> R : </td>
