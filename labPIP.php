@@ -24,7 +24,7 @@
     </head>
 
     <body>
-        <table class ="quest">
+        <table class ="form">
             <tr>
                 <td> X : </td>
 		<td><?php echo $x ?></td>
@@ -59,7 +59,7 @@
             </tr>
             
         </table>
-        <div align="center" class="editor1">Влад Беспалов<br> гр.P3211</div>
-        <div align="center" class="editor2">Данил Татаринов<br>  гр.P3211</div>
+        <div align="center" class="editor" id="VB">Влад Беспалов<br> гр.P3211</div>
+        <div align="center" class="editor" id="DT">Данил Татаринов<br>  гр.P3211</div>
     </body>
 </html>
