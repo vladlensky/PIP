@@ -1,21 +1,21 @@
 function proverka() { 
-    var b = 0;
-    var c = 0;
+    var isRtrue = false;
+    var isXtrue = false;
     var x = document.getElementsByName('x');
     var y = document.getElementById('field_y').value;
     var inp = document.getElementsByName('r');
     for (var i = 0; i < x.length; i++) {
         if (x[i].checked) {
-            c++;
+            isXtrue=true;
         }
     }
-    if(c===0){
+    if(!isXtrue){
         alert("Вы не ввели значение для x!");
         return false;
     }
     for (var i = 0; i < inp.length; i++) {
         if (inp[i].checked) {
-            b++;
+            isRtrue=true;
         }
     }
     if(y===""){
@@ -26,7 +26,7 @@ function proverka() {
         alert("Вы ввели неверное значение для y!");
         return false;
     }
-    if(b===0){
+    if(!isRtrue){
         alert("Вы не ввели значение для r!");
         return false;
     }
