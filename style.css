@@ -35,15 +35,12 @@ body {
     background-color: red;
 }
 
-.quest {
+.form{
     background-color: rgba(25, 107, 148, 0.5);
     border: 2px solid yellow;
     border-radius: 10px;
 }
 
-.subm {
-    background-color: rgba(25, 107, 148, 0);  
-    border: 2px solid yellow;
-    border-radius: 10px;
+#subm {
     color:yellow;
 }
