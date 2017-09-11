@@ -7,16 +7,14 @@ body {
     float: right;
 }
 
-.editor1 {
+.editor{	
     transition: 2s transform;
     font:fantasy;
-    position: fixed;
-    left: 0; 
+    position: fixed; 
     bottom: 50px;
     margin-left: 50px;
     width: 100px;
     color:yellow;
-    float: left;
     background-color:cadetblue;
     border: 2px solid yellow;
     border-radius: 100px;
@@ -24,29 +22,15 @@ body {
     opacity: 0.7;
 }
 
-.editor2 {
-    transition: 2s transform;
-    font:fantasy;
-    position: fixed;
-    right: 0; 
-    bottom: 50px;
-    margin-right: 50px;
-    width: 100px;
-    color:yellow;
-    float: right;
-    border: 2px solid yellow;
-    background-color:cadetblue;
-    border-radius: 100px;
-    font-weight:bold;
-    opacity: 0.7;
+#VB{
+    left: 2%;
 }
 
-.editor1:hover {
-    transform: rotate(360deg);
-    background-color: red;
+#DT{
+    right: 2%;
 }
 
-.editor2:hover {
+.editor:hover {
     transform: rotate(360deg);
     background-color: red;
 }
