@@ -1,5 +1,10 @@
-body {
+.alive {
     background-image: url(images/duck.jpg);
+    background-size: cover;
+}
+
+.rip {
+    background-image: url(images/ripUtka.jpeg);
     background-size: cover;
 }
 
