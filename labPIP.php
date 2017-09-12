@@ -18,7 +18,7 @@
         <meta charset="UTF-8"/>
         <title>Лабораторная №1</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
-        <link rel="icon" href="images/icon.ico"/>
+        <link rel="icon" href="images/favicon.ico"/>
         <script type="text/javascript" src="skript.js"></script>
     </head>
 
@@ -54,7 +54,17 @@
             </tr>
             
         </table>
-        <div align="center" class="editor" id="VB">Влад Беспалов<br> гр.P3211</div>
-        <div align="center" class="editor" id="DT">Данил Татаринов<br>  гр.P3211</div>
+        <?php if(!$correct){echo "<audio id='player' src='audio/dd.mp3' autoplay loop> </audio>";
+        echo "<div align='center' class='editor editor_VB'>Влад Беспалов<br> гр.P3211</div>";
+        echo "<div align='center' class='editor editor_DT'>Данил Татаринов<br> гр.P3211</div>";}
+        else {echo "<audio id='player' src='audio/DIMON.mp3' autoplay loop> </audio>"; 
+        echo "<div align='center' class='editor editor_VB2'>Влад Беспалов<br> гр.P3211</div>";
+        echo "<div align='center' class='editor editor_DT2'>Данил Татаринов<br> гр.P3211</div>";}?>
+	<div class="player">
+		<button class="mus_but play_paus" onclick="document.getElementById('player').play()">Плей</button>
+		<button class="mus_but play_paus"onclick="document.getElementById('player').pause()">Пауза</button>
+		<button class="mus_but plus_minus" onclick="document.getElementById('player').volume+=0.1">+</button>
+		<button class="mus_but plus_minus" onclick="document.getElementById('player').volume-=0.1">-</button>
+	</div>
     </body>
 </html>

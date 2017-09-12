@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="language_last_selection" mtime="1489646761" type="string">
+                <stringvalue>x-kbl-ru:unitle</stringvalue>
+        </entry>
+        <entry name="reverse_cycle_lang_hotkey" mtime="1489645550" type="string">
+                <stringvalue>Shift+Ctrl+less</stringvalue>
+        </entry>
+        <entry name="cycle_lang_hotkey" mtime="1489645550" type="string">
+                <stringvalue>Shift+Ctrl+greater</stringvalue>
+        </entry>
+        <entry name="misc_hotkey" mtime="1489645550" type="string">
+                <stringvalue>False</stringvalue>
+        </entry>
+        <entry name="lang_list_hotkey" mtime="1489645550" type="string">
+                <stringvalue>Shift+Ctrl+space</stringvalue>
+        </entry>
+        <entry name="lang_list_placement" mtime="1489645550" type="string">
+                <stringvalue>InputLocation</stringvalue>
+        </entry>
+        <entry name="lang_list" mtime="1489645550" type="string">
+                <stringvalue>False</stringvalue>
+        </entry>
+        <entry name="lookup" mtime="1489645550" type="string">
+                <stringvalue>True</stringvalue>
+        </entry>
+        <entry name="kbd_layout" mtime="1489645550" type="int" value="50">
+        </entry>
+        <entry name="kbd_check" mtime="1489645550" type="string">
+                <stringvalue>True</stringvalue>
+        </entry>
+        <entry name="trigger_keys" mtime="1489645550" type="string">
+                <stringvalue>Shift_L+Control_L</stringvalue>
+        </entry>
+        <entry name="user_define_non_use" mtime="1489645550" type="list" ltype="string">
+        </entry>
+        <entry name="languages_save" mtime="1489645550" type="list" ltype="string">
+        <li type="string">
+                <stringvalue>en;unitle;</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>hi_IN;unitle;</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>he;unitle;</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>UNICODE-HEX;unitle;</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>UNICODE-OCTAL;unitle;</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>x-kbl-ru;unitle;</stringvalue>
+        </li>
+        </entry>
+        <entry name="languages_use" mtime="1489645550" type="list" ltype="string">
+        <li type="string">
+                <stringvalue>en;Английский/Европейский;;</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>hi_IN;Индийский;;</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>he;Иврит;;</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>UNICODE-HEX;Юникод (HEX);;</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>UNICODE-OCTAL;Юникод (OCTAL);;</stringvalue>
+        </li>
+        <li type="string">
+                <stringvalue>x-kbl-ru;Русский;;</stringvalue>
+        </li>
+        </entry>
+        <entry name="remember_last_le" mtime="1489645550" type="string">
+                <stringvalue>False</stringvalue>
+        </entry>
+        <entry name="on_off_policy" mtime="1489645550" type="string">
+                <stringvalue>Activate</stringvalue>
+        </entry>
+        <entry name="lang_switch_policy" mtime="1489645550" type="string">
+                <stringvalue>Desktop</stringvalue>
+        </entry>
+        <entry name="sync_activation" mtime="1489645550" type="string">
+                <stringvalue>True</stringvalue>
+        </entry>
+        <entry name="status_placement" mtime="1489645550" type="string">
+                <stringvalue>DesktopDefault</stringvalue>
+        </entry>
+        <entry name="status" mtime="1489645550" type="string">
+                <stringvalue>True</stringvalue>
+        </entry>
+        <entry name="switcher_autostart" mtime="1489645550" type="string">
+                <stringvalue>True</stringvalue>
+        </entry>
+        <entry name="enable" mtime="1489645550" type="string">
+                <stringvalue>True</stringvalue>
+        </entry>
+</gconf>

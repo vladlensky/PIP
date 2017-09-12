@@ -16,7 +16,7 @@
     transition: 2s transform;
     font:fantasy;
     position: fixed; 
-    bottom: 50px;
+    bottom: 82px;
     margin-left: 50px;
     width: 100px;
     color:yellow;
@@ -28,11 +28,21 @@
 }
 
 .editor_VB{
-    left: 2%;
+    left: 4%;
 }
 
 .editor_DT{
-    right: 2%;
+    right: 7%;
+}
+
+.editor_VB2{
+    left: 7%;
+    bottom: 150px;
+}
+
+.editor_DT2{
+    right: 11%;
+    bottom: 150px;
 }
 
 .player{
@@ -59,8 +69,28 @@
 }
 
 .editor:hover {
-    transform: rotate(360deg);
-    background-color: red;
+    transform: rotate(360deg) scale(2.5);
+    background-size: cover;
+    color : rgba(255,245,215,0);
+    opacity: 1;
+}
+
+.editor_VB:hover {
+    background-image: url(images/perminof.jpg);
+}
+
+.editor_DT:hover {
+    background-image: url(images/perminof2.jpg);
+}
+
+.editor_VB2:hover {
+    transform: rotate(360deg) scale(3.5);
+    background-image: url(images/bezishodnost.jpg);
+}
+
+.editor_DT2:hover {
+    transform: rotate(360deg) scale(3.5);
+    background-image: url(images/afanas.jpg);
 }
 
 .form{

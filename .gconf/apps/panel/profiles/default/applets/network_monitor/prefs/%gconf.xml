@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="interface" mtime="1489645350" schema="/schemas/apps/netstatus_applet/prefs/interface" type="string">
+                <stringvalue>igb0</stringvalue>
+        </entry>
+</gconf>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="object_type" mtime="1489645349" schema="/schemas/apps/panel/objects/object_type" type="string">
+                <stringvalue>launcher-object</stringvalue>
+        </entry>
+        <entry name="position" mtime="1489645349" schema="/schemas/apps/panel/objects/position" type="int" value="5">
+        </entry>
+        <entry name="locked" mtime="1489645349" schema="/schemas/apps/panel/objects/locked" type="bool" value="true">
+        </entry>
+        <entry name="panel_right_stick" mtime="1489645349" schema="/schemas/apps/panel/objects/panel_right_stick_type" type="bool" value="true">
+        </entry>
+        <entry name="launcher_location" mtime="1489645349" schema="/schemas/apps/panel/objects/launcher_location" type="string">
+                <stringvalue>file:////usr/share/applications/BootsLauncher.desktop</stringvalue>
+        </entry>
+        <entry name="toplevel_id" mtime="1489645349" schema="/schemas/apps/panel/objects/toplevel_id" type="string">
+                <stringvalue>bottom_panel</stringvalue>
+        </entry>
+</gconf>

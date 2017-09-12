@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="conversion_on_start" mtime="1489645550" type="bool" value="true">
+        </entry>
+        <entry name="input_language_policy" mtime="1489645550" type="int" value="1">
+        </entry>
+</gconf>

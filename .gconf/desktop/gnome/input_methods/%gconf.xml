@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="status_placement" mtime="1489645550" type="string">
+                <stringvalue>panel</stringvalue>
+        </entry>
+        <entry name="status" mtime="1489645550" type="string">
+                <stringvalue>enabled</stringvalue>
+        </entry>
+        <entry name="support" mtime="1489645550" type="string">
+                <stringvalue>enabled</stringvalue>
+        </entry>
+</gconf>
